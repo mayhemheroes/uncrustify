@@ -1,0 +1,7 @@
+project: uncrustify
+target: uncrustify
+
+# List of commands used to test the target
+cmds:
+  - cmd: /uncrustify/build/uncrustify -c @@ -f /uncrustify/tests/input/c/brace.c
+    env: {}
