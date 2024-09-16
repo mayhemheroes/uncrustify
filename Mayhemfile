@@ -1,0 +1,6 @@
+project: uncrustify
+target: uncrustify
+
+cmds:
+  - cmd: /uncrustify -c @@ -f /brace.c
+    env: {}
